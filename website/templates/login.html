@@ -1,0 +1,47 @@
+{% extends "base.html" %} {% block title %} Login {% endblock %} {% block
+content %}
+
+<section class="login-section">
+  <div class="welcome-text">
+    <h1>
+      Note It. <span id="keep-it">Keep It. </span
+      ><span id="remember-it">Remember It.</span>
+    </h1>
+  </div>
+
+  <form method="POST" class="login-form">
+    <h3 align="center">Login</h3>
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input
+        type="email"
+        class="form-control"
+        id="email"
+        name="email"
+        placeholder="Enter email"
+      />
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input
+        type="password"
+        class="form-control"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+      />
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-primary" id="login-btn">Login</button>
+
+    <p id="no-account">
+      Don't have an account?
+      <a id="sign-up" href="/sign-up">Sign Up</a>
+      instead
+    </p>
+  </form>
+</section>
+
+{% endblock %}

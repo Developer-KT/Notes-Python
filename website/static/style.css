@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  font-family: poppins;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: transparent;
+  color: black;
+  padding: 0.7rem 1rem;
+}
+
+/* #logout {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 5%;
+  padding: 0.1rem;
+} */
+
+.yeahh {
+  color: blueviolet;
+}
+
+.container {
+  min-width: 100%;
+  padding: 0 !important;
+}
+
+.tab-wrapperx {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "poppins";
+}
+
+.nav-tabsx {
+  display: flex;
+  justify-items: flex-end;
+}
+.nav-tabsx a {
+  color: black;
+  font-weight: bold;
+}
+
+.alert {
+  position: absolute !important;
+  top: 5rem;
+  right: 0.6rem;
+  z-index: 999;
+  border-radius: 1rem !important;
+}
+
+/*------------------------ Login Page --------------------- */
+
+.login-section {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  min-height: 100vh;
+  background-image: url("./images/desktop-wallpaper-books-macro-pen-culture.jpg");
+  background-size: cover;
+  padding: 0 5rem;
+}
+
+.login-form {
+  width: 100%;
+  color: black;
+}
+
+.welcome-text h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: montserrat;
+}
+
+#keep-it {
+  color: #ff1a1a;
+}
+#remember-it {
+  color: #00e0ff;
+}
+
+#no-account {
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+#no-account a {
+  text-decoration: underline;
+}
+
+#login-btn {
+  display: block;
+  margin: auto;
+  font-weight: bold;
+  border-radius: 0.7rem;
+}
+
+footer {
+  background-color: black;
+  height: 5rem;
+}
+
+/* ------------------ Sign Up page ------------------- */
+
+.signup-section {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  min-height: 100vh;
+  background-image: url("./images/desktop-wallpaper-books-macro-pen-culture.jpg");
+  background-size: cover;
+  padding: 0 5rem;
+}
+
+.signup-form {
+  width: 100%;
+  color: black;
+}
+
+#signup-btn {
+  display: block;
+  margin: auto;
+  border-radius: 0.7rem;
+}
+
+/* ------------------ Home page ------------------ */
+
+.home-section {
+  display: flex;
+  background-color: #3d4d5b;
+  padding: 5rem;
+  gap: 3rem;
+  min-height: 100vh;
+  background-image: url("./images/wp3269205-pen-wallpapers.jpg");
+}
+
+.home-section form {
+  width: 30%;
+  margin-top: 4rem;
+}
+
+.notes-div {
+  width: 70%;
+}
+
+.note-item {
+  font-family: poppins;
+  margin: 1rem 0;
+}
